@@ -19,17 +19,17 @@ Repository for the Applied Reinforcement Internship 2020/2021 at LMU Munich
 #### Google Drive
 If pipenv does not work, it is also possible to run the ARLProject.ipynb through Google Collab
 1. Add gymSampling to the Google Drive, preferrebly in an ARL folder at bootom level (/content/drive/MyDrive/ARL)
-2. Add from google.colab import drive 
-3. Add drive.mount('/content/gdrive')
-4. Add pip install gym_cartpole_swingup
-5. Add pip install stable_baselines3
-6. pip install -e /content/drive/MyDrive/ARL/gymSampling
-7. Change googledrive_dir to googledrive_dir = "/content/drive/MyDrive/ARL/"
+2. Add `from google.colab import drive`
+3. Add `drive.mount('/content/gdrive')`
+4. Add `pip install gym_cartpole_swingup`
+5. Add `pip install stable_baselines3`
+6. Add `pip install -e /content/drive/MyDrive/ARL/gymSampling`
+7. Change `googledrive_dir = "ARL/"` to `googledrive_dir = "/content/drive/MyDrive/ARL/"`
 
 #### Jupyter Lab/Notebook
 Alternatively it an also be run with any other Jupyter instance outside of the pipenv as lng as all prequestites are installed
 1. Make sure Python 3.7 is installed
-2. pip install -e gymSampling from the folder that contains gymSampling
+2. Run `pip install -e gymSampling` from the folder that contains gymSampling
 3. install all other prequesites
 
 ### Usage
