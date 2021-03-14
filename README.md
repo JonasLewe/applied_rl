@@ -6,7 +6,7 @@ Repository for the Applied Reinforcement Internship 2020/2021 at LMU Munich
 ### Instructions
 
 #### Pipenv
-1. Make sure Python 3.7 is installed
+1. Make sure Python 3.7 is installed (other Python versions e.g. 3.6 or 3.8 won't work due to compatibility issues with tensorflow)
 2. `git clone https://github.com/JonasLewe/applied_rl.git` 
 3. `cd applied_rl`
 4. Install the pipenv package: `pip install pipenv`
