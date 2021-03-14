@@ -7,14 +7,16 @@ Repository for the Applied Reinforcement Internship 2020/2021 at LMU Munich
 
 #### Pipenv
 1. Make sure Python 3.7 is installed
-2. Install the pipenv package: `pip install pipenv`
-3. Create a virtual environment: `pipenv install`
-4. Run pipenv environment: `pipenv shell`
-5. Create kernel to be able to import packages in a notebook:
+2. `git clone https://github.com/JonasLewe/applied_rl.git` 
+3. `cd applied_rl`
+4. Install the pipenv package: `pip install pipenv`
+5. Create a virtual environment: `pipenv install`
+6. Run pipenv environment: `pipenv shell`
+7. Create kernel to be able to import packages in a notebook:
 
    `python -m ipykernel install --user --name=applied_rl`
-6. Start an instance of jupyter notebook and run `ARLProject.ipynb`
-7. Select `applied_rl` kernel
+8. Start an instance of jupyter notebook and run `ARLProject.ipynb`
+9. Select `applied_rl` kernel
 
 #### Google Drive
 If pipenv does not work, it is also possible to run the ARLProject.ipynb through Google Collab
