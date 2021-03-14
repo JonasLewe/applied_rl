@@ -32,7 +32,10 @@ If pipenv does not work, it is also possible to run the ARLProject.ipynb through
 Alternatively it can also be run with any other jupyter notebook instance outside of the pipenv as long as all prerequisites are installed
 1. Make sure Python 3.7 is installed
 2. Run `pip install -e gymSampling` from the folder that contains gymSampling
-3. install all other prerequisites
+3. Install all other prerequisites listed in requirements.txt
+
+#### Worst case
+In the worst case that there are still issues persistent, the results of pip freeze on a machine where the notebook was executed without issues was added as environemnt.txt.
 
 ### Usage
 Every code block has information regarding its purposes added in a markdown cell above it.
