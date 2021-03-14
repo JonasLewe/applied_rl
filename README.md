@@ -41,7 +41,7 @@ Code with a big, italicized TRAIN retrains a model and may be time-consuming, it
 
 Code with a big, italicized STORE write checkpoint or data to the folder system and may overwrite existing files.
 
-Code with a big, italicized LOAD are used to reload stored checkpoints and data. This is advised even for newly created data as variable names may change due to that. Our checkpoints are provided in the ARL folder. There may be version issues with the PPO checkpoints between different installations. We were unable to pinpoint the package causing this. In case of this error, it will be neccessary to skip the resampling for the graphs until own PPO runs have been made that overwrite the stored checkpoints. The format of these would work with the code afterwards.
+Code with a big, italicized LOAD are used to reload stored checkpoints and data. This is advised even for newly created data as variable names may change due to that. Our checkpoints are provided in the ARL folder. There may be version issues with the PPO checkpoints between different installations. We were unable to pinpoint the package causing this. In case of this error, it will be neccessary to skip the resampling for the graphs until own PPO runs have been made that overwrite the stored checkpoints. The format of these would work with the code afterwards. Some samples could not be uploaded to GitHub due to size restrictions and thus have to be remade.
 
 ### Gruppe 5
 Philipp Jahn, Jonas Lewe, Isabelle Mayerhofer
