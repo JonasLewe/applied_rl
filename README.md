@@ -35,7 +35,7 @@ Alternatively it can also be run with any other jupyter notebook instance outsid
 3. Install all other prerequisites listed in requirements.txt
 
 #### Worst case
-In the worst case that there are still issues persistent, the results of pip freeze on a machine where the notebook was executed without issues was added as environemnt.txt.
+In the worst case that there are still issues persistent, the results of pip freeze on a machine where the notebook was executed without issues was added as environment.txt.
 
 ### Usage
 Every code block has information regarding its purposes added in a markdown cell above it.
