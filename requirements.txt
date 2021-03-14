@@ -1,0 +1,14 @@
+tensorflow ==2.4.0
+tensorflow-probability ==0.12.1
+gym
+gym-cartpole-swingup
+numpy
+pandas
+matplotlib
+seaborn
+sklearn
+stable-baselines3
+ipykernel
+scipy
+stable-baselines
+jupyter

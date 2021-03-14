@@ -17,8 +17,9 @@ stable-baselines3 = "*"
 ipykernel = "*"
 scipy = "*"
 stable-baselines = "*"
+gymSampling = {editable = true,path = "./gymSampling"}
 
 [dev-packages]
 
 [requires]
-python_version = "3.7"
+python_version = "3"
