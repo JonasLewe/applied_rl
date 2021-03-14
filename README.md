@@ -37,11 +37,11 @@ Every code block has information regarding its purposes added in a Markdown abov
 
 The code works in order, but sections may be skipped if needed. Some variables may be required later which would require a checka bove to see where it was first used and to execute that code block
 
-Code with a big, italized TRAIN retrains a model and may be time-consuming, it can be skipped in favor of loading blocks that simply load already trained checkpoints
+Code with a big, italicized TRAIN retrains a model and may be time-consuming, it can be skipped in favor of loading blocks that simply load already trained checkpoints
 
-Code with a big, italized STORE write checkpoint or data to the folder system and may overwrite existing files.
+Code with a big, italicized STORE write checkpoint or data to the folder system and may overwrite existing files.
 
-Code with a big, italized LOAD are used to reload stored checkpoints and data. This is advised even for newly created data as variable names may change due to that. Our checkpoints are provided in the ARL folder. There may be version issues with the PPO checkpoints between different installations. We were unable to pinpoint the package causing this. In case of this error, it will be neccessary to skip the resampling for the graphs until own PPO runs have been made that overwrite the stored checkpoints. The format of these would work with the code afterwards.
+Code with a big, italicized LOAD are used to reload stored checkpoints and data. This is advised even for newly created data as variable names may change due to that. Our checkpoints are provided in the ARL folder. There may be version issues with the PPO checkpoints between different installations. We were unable to pinpoint the package causing this. In case of this error, it will be neccessary to skip the resampling for the graphs until own PPO runs have been made that overwrite the stored checkpoints. The format of these would work with the code afterwards.
 
 ### Gruppe 5
 Philipp Jahn, Jonas Lewe, Isabelle Mayerhofer
